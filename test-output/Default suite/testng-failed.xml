@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.flipkart.pageexeccution.LoginPageExecution">
+        <methods>
+          <include name="bookingSingleRoom"/>
+          <include name="browserlaunch"/>
+          <include name="bookingFamilyRoom"/>
+          <include name="browserquir"/>
+        </methods>
+      </class> <!-- com.flipkart.pageexeccution.LoginPageExecution -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

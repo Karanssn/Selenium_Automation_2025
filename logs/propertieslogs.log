@@ -1,0 +1,14 @@
+[INFO ] 2025-08-16 12:34:44.383 [main] LoginPageExecution - launching the browser
+[INFO ] 2025-08-16 12:34:45.892 [main] LoginPageExecution - Account login successful
+[INFO ] 2025-08-16 12:34:46.361 [main] LoginPageExecution - launching the browser
+[INFO ] 2025-08-16 12:34:47.169 [main] LoginPageExecution - Account login is unsuccessful
+[INFO ] 2025-08-16 12:43:00.375 [main] LoginPageExecution - launching the browser
+[INFO ] 2025-08-16 12:43:02.473 [main] LoginPageExecution - Account login is unsuccessful
+[INFO ] 2025-08-16 12:46:52.685 [main] LoginPageExecution - launching the browser
+[INFO ] 2025-08-16 12:46:53.579 [main] LoginPageExecution - Account login is unsuccessful
+[INFO ] 2025-08-16 12:49:23.446 [main] LoginPageExecution - launching the browser
+[INFO ] 2025-08-16 12:49:24.366 [main] LoginPageExecution - Account login is unsuccessful
+[INFO ] 2025-08-16 12:52:36.431 [main] LoginPageExecution - launching the browser
+[INFO ] 2025-08-16 12:52:37.496 [main] LoginPageExecution - Account login is unsuccessful
+[INFO ] 2025-08-16 12:54:43.053 [main] LoginPageExecution - launching the browser
+[INFO ] 2025-08-16 12:54:43.869 [main] LoginPageExecution - Account login is unsuccessful

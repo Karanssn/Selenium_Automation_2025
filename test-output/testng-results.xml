@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-16T12:54:38 IST" name="Suite" finished-at="2025-08-16T12:54:57 IST" duration-ms="19862">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginPageExecution.loginwithvalidcrendential()[pri:1, instance:com.flipkart.pageexeccution.LoginPageExecution@46944ca9]" name="loginwithvalidcrendential" class="com.flipkart.pageexeccution.LoginPageExecution"/>
+        <method signature="LoginPageExecution.loginwithInvalidcrendential()[pri:2, instance:com.flipkart.pageexeccution.LoginPageExecution@46944ca9]" name="loginwithInvalidcrendential" class="com.flipkart.pageexeccution.LoginPageExecution"/>
+        <method signature="LoginPageExecution.bookingSingleRoom()[pri:3, instance:com.flipkart.pageexeccution.LoginPageExecution@46944ca9]" name="bookingSingleRoom" class="com.flipkart.pageexeccution.LoginPageExecution"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="LoginPageExecution.loginwithvalidcrendential()[pri:1, instance:com.flipkart.pageexeccution.LoginPageExecution@46944ca9]" name="loginwithvalidcrendential" class="com.flipkart.pageexeccution.LoginPageExecution"/>
+        <method signature="LoginPageExecution.loginwithInvalidcrendential()[pri:2, instance:com.flipkart.pageexeccution.LoginPageExecution@46944ca9]" name="loginwithInvalidcrendential" class="com.flipkart.pageexeccution.LoginPageExecution"/>
+        <method signature="LoginPageExecution.bookingSingleRoom()[pri:3, instance:com.flipkart.pageexeccution.LoginPageExecution@46944ca9]" name="bookingSingleRoom" class="com.flipkart.pageexeccution.LoginPageExecution"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-08-16T12:54:38 IST" name="Test" finished-at="2025-08-16T12:54:57 IST" duration-ms="19862">
+      <class name="com.flipkart.pageexeccution.LoginPageExecution">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:com.flipkart.pageexeccution.LoginPageExecution@46944ca9]" started-at="2025-08-16T12:54:38 IST" name="browserlaunch" finished-at="2025-08-16T12:54:42 IST" duration-ms="4759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="loginwithvalidcrendential()[pri:1, instance:com.flipkart.pageexeccution.LoginPageExecution@46944ca9]" started-at="2025-08-16T12:54:42 IST" name="loginwithvalidcrendential" finished-at="2025-08-16T12:54:42 IST" duration-ms="14" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.attachReporter(com.aventstack.extentreports.ExtentReporter[])" because "com.flipkart.pageexeccution.LoginPageExecution.extent" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.attachReporter(com.aventstack.extentreports.ExtentReporter[])" because "com.flipkart.pageexeccution.LoginPageExecution.extent" is null
+at com.flipkart.pageexeccution.LoginPageExecution.loginwithvalidcrendential(LoginPageExecution.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcrendential -->
+        <test-method signature="loginwithInvalidcrendential()[pri:2, instance:com.flipkart.pageexeccution.LoginPageExecution@46944ca9]" started-at="2025-08-16T12:54:42 IST" name="loginwithInvalidcrendential" finished-at="2025-08-16T12:54:43 IST" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidcrendential -->
+        <test-method signature="bookingSingleRoom()[pri:3, instance:com.flipkart.pageexeccution.LoginPageExecution@46944ca9]" started-at="2025-08-16T12:54:43 IST" name="bookingSingleRoom" finished-at="2025-08-16T12:54:57 IST" duration-ms="13163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingSingleRoom -->
+        <test-method is-config="true" signature="browserquir()[pri:0, instance:com.flipkart.pageexeccution.LoginPageExecution@46944ca9]" started-at="2025-08-16T12:54:57 IST" name="browserquir" finished-at="2025-08-16T12:54:57 IST" duration-ms="937" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "com.flipkart.pageexeccution.LoginPageExecution.extent" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.flush()" because "com.flipkart.pageexeccution.LoginPageExecution.extent" is null
+at com.flipkart.pageexeccution.LoginPageExecution.browserquir(LoginPageExecution.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:229)
+at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:215)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserquir -->
+      </class> <!-- com.flipkart.pageexeccution.LoginPageExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
